@@ -39,6 +39,7 @@ body {
 .header nav a img {
     height: 45px;
     margin: 0px;
+    
 }
 
 .header nav h1 {
@@ -54,7 +55,6 @@ body {
     font-size: 10px;
     font-weight: 300;
 }
-
 
 .header nav ul li a {
     text-decoration: none;
@@ -296,6 +296,36 @@ body {
     padding: 10px;
     margin-top: 15px;
  }
+
+/*----ANIMACIONES----*/
+.wrapper { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    animation-name: logo-footer;
+    animation-duration: 40s;
+    animation-delay: 0.1s;
+    animation-timing-function: ease;
+
+
+}
+
+@keyframes logo-footer {
+    0% {
+        transform: rotateZ(0deg);
+        opacity: 0;
+    }
+
+    100% {
+        transform: rotateZ(900deg) ;
+    }
+    
+
+    
+}
 
  /*----MEDIA QUERY---*/
 
